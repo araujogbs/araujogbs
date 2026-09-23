@@ -3,7 +3,7 @@
 # 👋 Olá, eu sou o Gabriel Araújo!
 
 <p align="left">
-  🔭 Analista de Suporte Nível 2 e Desenvolvedor de Software com sólida experiência na criação de sistemas web corporativos, automações e soluções escaláveis. Atualmente atuo na <strong>Joinner Sistemas</strong> e possuo histórico de entregas de softwares comerciais de ponta a ponta (como o ecossistema EdTech desenvolvido para a Gemba Consultoria).
+  🔭 Analista e Desenvolvedor de Software com sólida experiência na criação de sistemas web corporativos, automações e soluções escaláveis. Atualmente atuo na <strong>Joinner Sistemas</strong> e possuo histórico de entregas de softwares comerciais de ponta a ponta (como o ecossistema EdTech desenvolvido para a Gemba Consultoria).
 </p>
 
 ---
