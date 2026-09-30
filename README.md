@@ -32,7 +32,7 @@
 
 ## 🚀 Principais Projetos e Cases
 
-* **[Lessionato]([https://github.com/araujogbs/lessionato-edtech-plataform](https://github.com/araujogbs/lessionato-edtech-platform))** *(Case de Estudo)*: Plataforma completa de cursos livres desenvolvida para a **Gemba Consultoria**. Conta com pagamentos automatizados via PIX usando **mTLS**, webhooks de confirmação, emissão dinâmica de certificados em PDF via backend e rotas públicas de autenticidade.
+* **[Lessionato](https://github.com/araujogbs/lessionato-edtech-platform)** *(Case de Estudo)*: Plataforma completa de cursos livres desenvolvida para a **Gemba Consultoria**. Conta com pagamentos automatizados via PIX usando **mTLS**, webhooks de confirmação, emissão dinâmica de certificados em PDF via backend e rotas públicas de autenticidade.
 
 ---
 
