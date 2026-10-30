@@ -37,9 +37,19 @@ Projeto real, feito para uma cliente e **em produção** em [larinovaisbeauty.co
 
 [Site no ar](https://larinovaisbeauty.com.br) · [Código do site](https://github.com/araujogbs/lari-novais-beauty-site) · [API](https://github.com/araujogbs/lari-novais-beauty-agendamento)
 
-### 🎓 [Lessionato](https://github.com/araujogbs/lessionato-edtech-platform) — plataforma de cursos livres *(case de estudo)*
+### 🎓 [Lessionato](https://github.com/araujogbs/lessionato-edtech-platform) — plataforma de cursos livres *(estudo de caso)*
 
-Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, Node.js e MongoDB**: autenticação JWT com rotas protegidas, pagamentos via **PIX com mTLS** e conciliação por webhooks, emissão de certificados em PDF com validação pública de autenticidade, e deploy em VPS Linux com Nginx, PM2 e HTTPS (Let's Encrypt).
+Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, Node.js, Express e MongoDB**. O aluno compra o curso por PIX, o acesso é liberado sozinho quando o banco confirma, e no fim ele faz a prova e emite um certificado que qualquer pessoa pode validar. O código foi vendido junto com o produto; o repositório documenta a arquitetura e as decisões técnicas.
+
+- Pagamento via **PIX com mTLS** (API da Gerencianet/EFI), webhook de liquidação e confirmação em tempo real na tela
+- Certificados em PDF gerados no servidor (), com código de autenticidade, QR Code e validação pública
+- Prova final com nota mínima, cupons de desconto com limite e validade, e prazo de 7 dias do CDC antes do certificado
+- JWT com token de renovação, senhas com bcrypt e recuperação de senha por e-mail com token de uso único
+- Deploy em VPS Linux com Nginx
+
+<p>
+  <img src="https://github.com/user-attachments/assets/041b7a54-80f8-4b18-b007-bea67babe410" width="460" alt="Lessionato: página inicial" />
+</p>
 
 ---
 
