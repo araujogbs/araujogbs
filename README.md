@@ -33,7 +33,7 @@ Projeto real, feito para uma cliente e **em produção** em [larinovaisbeauty.co
   <img src="assets/lari-agendamento-2.jpg" width="18.3%" alt="Agendamento: dados e resumo" />
 </p>
 <p>
-  <img src="assets/lari-painel.jpg" width="55%" alt="Painel da maquiadora: pedidos em análise e agenda do dia" />
+  <img src="assets/lari-painel.jpg" width="42%" alt="Painel da maquiadora: pedidos em análise e agenda do dia" />
 </p>
 
 [Site no ar](https://larinovaisbeauty.com.br) · [Código do site](https://github.com/araujogbs/lari-novais-beauty-site) · [API](https://github.com/araujogbs/lari-novais-beauty-agendamento)
