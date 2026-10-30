@@ -43,7 +43,7 @@ Projeto real, feito para uma cliente e **em produção** em [larinovaisbeauty.co
 Iniciativa minha no suporte da Joinner: um bot de **Discord em Python** que lê com **OCR** cada print de erro postado pelo time, guarda a solução junto do erro e acha em qual relatório do ERP está uma informação. A **equipe inteira usa** no dia a dia, sem instalar nada.
 
 - Busca por texto ou **pelo próprio print** (OCR com Tesseract): mostra os casos parecidos com data, link da conversa e a solução registrada
-- Base com **mais de 13,5 mil prints** indexados, que cresce com o uso ( ou reação ✅ no print)
+- Base com **mais de 13,5 mil prints** indexados, que cresce com o uso (`!solucao` ou reação ✅ no print)
 - Catálogo de **459 telas e 1.337 relatórios e exportações** (SPICA 7 e 8) com busca E/OU, plural e "você quis dizer…?"
 - Envia o print do menu do sistema com a tela **circulada em vermelho**, localizada por OCR
 - SQLite, indexação do histórico retomável e OCR fora do loop do bot; dados de clientes e token fora do Git
