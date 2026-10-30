@@ -4,7 +4,7 @@
 
 **Desenvolvedor Full Stack** em São Paulo. Crio aplicações web, mobile e APIs REST com **TypeScript, React, React Native, Node.js e C# (.NET)**, do banco de dados ao deploy.
 
-Hoje sou **Analista de Suporte Nível 2 na Joinner Sistemas**, referência técnica da operação e elo direto com o time de Engenharia de Software: investigo a causa-raiz de incidentes em produção, escrevo SQL em PostgreSQL para auditoria e correção de dados, e automatizo o que se repete (como um bot em Python, com OCR, que indexa erros de ERP e foi adotado por toda a equipe).
+Hoje sou **Analista de Suporte Nível 2 na Joinner Sistemas**, referência técnica da operação e elo direto com o time de Engenharia de Software: investigo a causa-raiz de incidentes em produção, escrevo SQL em PostgreSQL para auditoria e correção de dados, e automatizo o que se repete (como um [bot em Python, com OCR](https://github.com/araujogbs/bot-suporte-ERP), que indexa erros de ERP e foi adotado por toda a equipe).
 
 <p align="left">
   <a href="https://www.linkedin.com/in/gabriel-ara%C3%BAjo-a5a439277/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
@@ -27,15 +27,26 @@ Projeto real, feito para uma cliente e **em produção** em [larinovaisbeauty.co
 - Deploy: API em Docker + Caddy (HTTPS) numa VPS Linux, com backup diário; site na Cloudflare com publicação a cada push
 
 <p>
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-home.jpg" width="460" alt="Site: página inicial" />
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-celular.jpg" width="125" alt="Site no celular" />
+  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-home.jpg" width="48.6%" alt="Site: página inicial" />
+  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-celular.jpg" width="13.4%" alt="Site no celular" />
+  <img src="assets/lari-agendamento-1.jpg" width="16.7%" alt="Agendamento: serviços, dia e horário" />
+  <img src="assets/lari-agendamento-2.jpg" width="18.3%" alt="Agendamento: dados e resumo" />
 </p>
 <p>
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-agendamento.png" width="230" alt="Agendamento online" />
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/painel.png" width="355" alt="Painel da maquiadora" />
+  <img src="assets/lari-painel.jpg" width="55%" alt="Painel da maquiadora: pedidos em análise e agenda do dia" />
 </p>
 
 [Site no ar](https://larinovaisbeauty.com.br) · [Código do site](https://github.com/araujogbs/lari-novais-beauty-site) · [API](https://github.com/araujogbs/lari-novais-beauty-agendamento)
+
+### 🤖 [Bot de suporte ERP](https://github.com/araujogbs/bot-suporte-ERP) — memória compartilhada do time de suporte *(em uso)*
+
+Iniciativa minha no suporte da Joinner: um bot de **Discord em Python** que lê com **OCR** cada print de erro postado pelo time, guarda a solução junto do erro e acha em qual relatório do ERP está uma informação. A **equipe inteira usa** no dia a dia, sem instalar nada.
+
+- Busca por texto ou **pelo próprio print** (OCR com Tesseract): mostra os casos parecidos com data, link da conversa e a solução registrada
+- Base com **mais de 13,5 mil prints** indexados, que cresce com o uso ( ou reação ✅ no print)
+- Catálogo de **459 telas e 1.337 relatórios e exportações** (SPICA 7 e 8) com busca E/OU, plural e "você quis dizer…?"
+- Envia o print do menu do sistema com a tela **circulada em vermelho**, localizada por OCR
+- SQLite, indexação do histórico retomável e OCR fora do loop do bot; dados de clientes e token fora do Git
 
 ### 🎓 [Lessionato](https://github.com/araujogbs/lessionato-edtech-platform) — plataforma de cursos livres *(estudo de caso)*
 
@@ -71,6 +82,8 @@ Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, 
 ![Node.js](https://img.shields.io/badge/-Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=5FA04E&labelColor=0D1117)
 ![Express](https://img.shields.io/badge/-Express-0D1117?style=for-the-badge&logo=express&logoColor=ffffff&labelColor=0D1117)
 ![Python](https://img.shields.io/badge/-Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=0D1117)
+![discord.py](https://img.shields.io/badge/-discord.py-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2&labelColor=0D1117)
+![Tesseract OCR](https://img.shields.io/badge/-Tesseract%20OCR-0D1117?style=for-the-badge&logo=googlelens&logoColor=4285F4&labelColor=0D1117)
 ![JWT](https://img.shields.io/badge/-JWT-0D1117?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff&labelColor=0D1117)
 
 ### **Bancos de Dados**
