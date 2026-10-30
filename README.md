@@ -48,7 +48,7 @@ Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, 
 - Deploy em VPS Linux com Nginx
 
 <p>
-  <img src="https://github.com/user-attachments/assets/041b7a54-80f8-4b18-b007-bea67babe410" width="460" alt="Lessionato: página inicial" />
+  <img src="https://raw.githubusercontent.com/araujogbs/lessionato-edtech-platform/main/docs/home.jpg" width="460" alt="Lessionato: página inicial" />
 </p>
 
 ---
@@ -94,8 +94,8 @@ Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, 
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=araujogbs&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="Estatísticas do GitHub de Gabriel Araújo" />
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=araujogbs&layout=compact&hide_border=true&title_color=ff91a4&text_color=ff91a4&bg_color=0d1117" alt="Linguagens mais usadas" />
+  <img width="58%" src="https://streak-stats.demolab.com/?user=araujogbs&background=0D1117&ring=FF91A4&fire=FF91A4&currStreakLabel=FF91A4&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=30363D&hide_border=true&locale=pt_BR&disable_animations=true" alt="Sequência de contribuições de Gabriel Araújo" />
+  <img width="40%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=araujogbs&theme=github_dark" alt="Linguagens mais usadas" />
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff91a4&height=100&section=footer"/>
