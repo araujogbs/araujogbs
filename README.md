@@ -7,7 +7,7 @@
 Hoje sou **Analista de Suporte Nível 2 na Joinner Sistemas**, referência técnica da operação e elo direto com o time de Engenharia de Software: investigo a causa-raiz de incidentes em produção, escrevo SQL em PostgreSQL para auditoria e correção de dados, e automatizo o que se repete (como um bot em Python, com OCR, que indexa erros de ERP e foi adotado por toda a equipe).
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/gabriel-araujo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/gabriel-ara%C3%BAjo-a5a439277/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
   <a href="mailto:Gabriel.AraujoC@outlook.com"><img src="https://img.shields.io/badge/E--mail-Gabriel.AraujoC%40outlook.com-ff91a4?style=for-the-badge&labelColor=0D1117" alt="E-mail" /></a>
 </p>
 
@@ -15,21 +15,27 @@ Hoje sou **Analista de Suporte Nível 2 na Joinner Sistemas**, referência técn
 
 ## 🚀 Projetos em destaque
 
-### 💄 [Lari Novais Beauty](https://github.com/araujogbs/lari-novais-beauty-agendamento) — sistema de agendamento para uma maquiadora profissional
+### 💄 [Lari Novais Beauty](https://larinovaisbeauty.com.br) — site e sistema de agendamento de uma maquiadora profissional
 
-Projeto real, feito para uma cliente: **API em ASP.NET Core (.NET 10) + PostgreSQL**, **app em React Native/Expo** e **site em React + TypeScript**. A cliente agenda e já vê a taxa de deslocamento calculada pelo CEP; a maquiadora aprova ou recusa cada pedido num painel protegido, e os avisos saem pelo WhatsApp.
+Projeto real, feito para uma cliente e **em produção** em [larinovaisbeauty.com.br](https://larinovaisbeauty.com.br): **site e painel em React + TypeScript** e **API em ASP.NET Core (.NET 10) + PostgreSQL**. A cliente escolhe os serviços de cada pessoa, o dia e o horário, e já vê a taxa de deslocamento calculada pelo CEP; a maquiadora aprova ou recusa cada pedido no painel (instalável no iPhone, com notificação push), envia a confirmação com o PIX do sinal pelo WhatsApp, e o atendimento vai sozinho para o Google Agenda dela.
 
 - Horários sem conflito garantidos por *exclusion constraint* no PostgreSQL, mesmo com pedidos simultâneos
-- Fluxo de aprovação com estados e tarefa em segundo plano que expira pedidos sem resposta
-- JWT, senha em hash, rate limiting, upload validado e segredos fora do Git
+- Fluxo de aprovação com estados, sinal via PIX (QR Code) e tarefas em segundo plano que expiram pedidos sem resposta e mantêm bloqueios fixos de agenda
+- Integrações com Google Calendar (conta de serviço), Web Push (VAPID) e cálculo de rota por CEP
+- JWT, senha em hash, rate limiting, upload validado, CSP e segredos fora do Git
+- Site pré-renderizado, fotos WebP responsivas e tema celeste com modo noturno; testes com Vitest e Testing Library
+- Deploy: API em Docker + Caddy (HTTPS) numa VPS Linux, com backup diário; site na Cloudflare com publicação a cada push
 
 <p>
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-agendamento/main/docs/app-inicio.jpg" width="150" alt="App: tela inicial" />
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-agendamento/main/docs/app-horarios.jpg" width="150" alt="App: horários livres" />
-  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-agendamento/main/docs/app-painel.jpg" width="150" alt="App: painel da maquiadora" />
+  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-home.jpg" width="460" alt="Site: página inicial" />
+  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-celular.jpg" width="125" alt="Site no celular" />
+</p>
+<p>
+  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/site-agendamento.png" width="230" alt="Agendamento online" />
+  <img src="https://raw.githubusercontent.com/araujogbs/lari-novais-beauty-site/master/docs/painel.png" width="355" alt="Painel da maquiadora" />
 </p>
 
-[API e app](https://github.com/araujogbs/lari-novais-beauty-agendamento) · [Site](https://github.com/araujogbs/lari-novais-beauty-site)
+[Site no ar](https://larinovaisbeauty.com.br) · [Código do site](https://github.com/araujogbs/lari-novais-beauty-site) · [API](https://github.com/araujogbs/lari-novais-beauty-agendamento)
 
 ### 🎓 [Lessionato](https://github.com/araujogbs/lessionato-edtech-platform) — plataforma de cursos livres *(case de estudo)*
 
@@ -46,6 +52,7 @@ Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6&labelColor=0D1117)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=0D1117)
 ![Vite](https://img.shields.io/badge/-Vite-0D1117?style=for-the-badge&logo=vite&logoColor=646CFF&labelColor=0D1117)
+![Vitest](https://img.shields.io/badge/-Vitest-0D1117?style=for-the-badge&logo=vitest&logoColor=6E9F18&labelColor=0D1117)
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=css&logoColor=663399&labelColor=0D1117)
 
 ### **Backend**
@@ -67,6 +74,9 @@ Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, 
 ![Nginx](https://img.shields.io/badge/-Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=009639&labelColor=0D1117)
 ![PM2](https://img.shields.io/badge/-PM2-0D1117?style=for-the-badge&logo=pm2&logoColor=ffffff&labelColor=0D1117)
 ![Let's Encrypt](https://img.shields.io/badge/-SSL%2FTLS-0D1117?style=for-the-badge&logo=letsencrypt&logoColor=ffffff&labelColor=0D1117)
+![Docker](https://img.shields.io/badge/-Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=0D1117)
+![Caddy](https://img.shields.io/badge/-Caddy-0D1117?style=for-the-badge&logo=caddy&logoColor=1F88C0&labelColor=0D1117)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-0D1117?style=for-the-badge&logo=cloudflare&logoColor=F38020&labelColor=0D1117)
 ![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032&labelColor=0D1117)
 
 ---
