@@ -1,5 +1,3 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff91a4&height=120&section=header"/>
-
 # 👋 Olá, eu sou o Gabriel Araújo!
 
 **Desenvolvedor Full Stack** em São Paulo. Crio aplicações web, mobile e APIs REST com **TypeScript, React, React Native, Node.js e C# (.NET)**, do banco de dados ao deploy.
@@ -111,4 +109,3 @@ Entregue de ponta a ponta para a **Gemba Consultoria** com **React, TypeScript, 
   <img width="40%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=araujogbs&theme=github_dark" alt="Linguagens mais usadas" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff91a4&height=100&section=footer"/>
